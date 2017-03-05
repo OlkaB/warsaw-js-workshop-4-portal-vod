@@ -1,0 +1,8 @@
+<app-header></app-header>
+<header>Inny nagłówek</header>
+VidSrc: {{videoSource}}
+<app-modal [visible]="modalVisible">
+  <video #video *ngIf="videoSource" [src]="videoSource" controls></video>  <!-- #video to angularowe polecenie wskazujące, że to jest video, a 'controls' na koncu mówi, żeby dodać kontrolki wideo-->
+</app-modal>
+<app-videos-list (watchVideo)="watchVideo($event)"></app-videos-list>
+<app-footer></app-footer>

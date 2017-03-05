@@ -1,0 +1,8 @@
+/* ten css dotyczy wyłącznie html'a do którego jest przypisany! I nie trzeba BEMa:) */
+header {
+  background: grey;
+}
+
+p {
+  display: inline-block;
+}

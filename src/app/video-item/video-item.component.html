@@ -1,0 +1,10 @@
+<div>
+  <h1>{{video.title}}</h1>
+  <div class="heartLike"></div>
+  <p>Rate: {{video.rating}}/5</p>
+  <p>Description: {{video.description}}</p>
+  <img src="{{video.image}}">
+  <button (click)="onClickHandler($event)">Watch video</button>
+  <button>Like</button>
+</div>
+

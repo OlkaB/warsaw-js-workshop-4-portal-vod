@@ -1,0 +1,5 @@
+<p>
+  videos-list works!
+</p>
+<app-video-item *ngFor="let video of videosList.videos" [video]="video" (watchVideo)="onWatchVideo($event)"></app-video-item>
+
